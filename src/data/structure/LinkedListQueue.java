@@ -1,6 +1,12 @@
 package data.structure;
 
 import java.util.LinkedList;
+/**
+ * 
+ * @author CYPRIAN DAVIS
+ *
+ * @param <T>
+ */
 
 public class LinkedListQueue<T> implements Queue<T> {
 	private LinkedList<T> list = new LinkedList<T>();
